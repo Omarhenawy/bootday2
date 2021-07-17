@@ -1,0 +1,231 @@
+:root {
+    --primary: #E5E5E5;
+}
+
+body {
+    background-color: var(--primary);
+}
+
+.nav-color {
+    background-color: coral !important;
+    opacity: 1.0;
+}
+
+#top {
+    background-image: url("/imgs/MicrosoftTeams-image\ \(1\).png");
+    /* object-fit: contain; */
+    /* background-position: 50% 80%;
+    height: 130vh; */
+    background-repeat: no-repeat;
+}
+
+.color-white {
+    color: white !important;
+}
+
+.text {
+    font-family: M Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    line-height: 100%;
+    color: white;
+    /* or 100px */
+    display: flex;
+    align-items: center;
+}
+
+.st_button {
+    font-family: Rubik;
+    width: 220px;
+    height: 60px;
+    left: 240px;
+    top: 550px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    background-color: #EE4D47 !important;
+    border-radius: 5px !important;
+    border-color: #EE4D47 !important;
+}
+
+.nav-button {
+    background-color: #EE4D47 !important;
+    border-color: #EE4D47 !important;
+}
+
+.margin_car {
+    position: relative;
+    top: 120px;
+}
+
+.color {
+    color: #EE4D47;
+}
+
+.border1 {
+    border-left: 10px solid #EE4D47;
+    color: black;
+    background-color: #FCDDD4;
+}
+
+.faq-margin {
+    margin-top: 100px;
+}
+
+.aboutM {
+    margin-top: 50px;
+}
+
+#FAQ {
+    background-image: url("/imgs/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-position-x: 180%;
+}
+
+.fquestion {
+    width: 550px;
+    height: 90px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(238, 77, 71, 0.1);
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* text */
+    color: #402B2B;
+}
+
+.questions {
+    width: 500px;
+    height: 200px;
+    font-family: Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 140%;
+    /* or 67px */
+    color: #402B2B;
+}
+
+.questions2 {
+    width: 300px;
+    height: 200px;
+    font-family: Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 140%;
+    /* or 67px */
+    color: #402B2B;
+}
+
+.card-design {
+    width: 320px;
+    height: 260px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(238, 77, 71, 0.1);
+    border-radius: 10px;
+}
+
+.negative {
+    margin-top: 55px;
+}
+
+.card-margin {
+    margin-top: 150px;
+}
+
+.name_font {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+#footer1 {
+    width: 90%;
+}
+
+#footer {
+    background-image: url("/imgs/trekmobil.png");
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 35vh;
+}
+
+.section {
+    background-image: url("/imgs/BG\ \(1\).png");
+    background-position: 50% 10%;
+    height: 60vh;
+}
+
+.back-white {
+    background-color: white;
+}
+
+.white {
+    color: white;
+    width: 330px;
+    height: 100px;
+}
+
+.border2 {
+    border-left: 10px solid #EE4D47;
+    color: white;
+}
+
+.formbox {
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(238, 77, 71, 0.1);
+    border-radius: 10px;
+    width: 400px;
+    height: 340px;
+}
+
+.ft_button {
+    font-family: Rubik;
+    width: 220px;
+    height: 60px;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    background-color: #EE4D47 !important;
+    border-radius: 5px !important;
+    border-color: #EE4D47 !important;
+}
+
+@media only screen and (max-width: 1400px) {
+    #top {
+        background-image: url("/imgs/MicrosoftTeams-image\ \(1\).png");
+        /* object-fit: contain; */
+        background-position: 50% 80%;
+        height: 130vh;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .margin_car {
+        display: none;
+    }
+    .white {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .margin_car {
+        display: none;
+    }
+    .white {
+        display: none;
+    }
+}
